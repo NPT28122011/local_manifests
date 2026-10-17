@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remote Github -->
+    <remote name="github-npt" fetch="https://github.com" />
+
+    <!-- Kernel Source MT6833 / Oppo CPH2339 -->
+    <project path="kernel/oppo/mt6833" 
+             name="NPT28122011/kernel_oppo_mt6833_cph2339" 
+             remote="github-npt" 
+             revision="oppo/mt6833_s_12.1_oppo_k10_5g" />
+</manifest>
